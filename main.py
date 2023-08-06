@@ -70,5 +70,3 @@ ganomaly = GANomaly(opt, train_dataset, valid_dataset=None, test_dataset=test_da
 ganomaly.fit(opt.niter)
 
 ganomaly.evaluate_best(test_dataset)
-
-print('hi')
